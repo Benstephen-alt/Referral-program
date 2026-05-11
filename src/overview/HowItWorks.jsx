@@ -153,8 +153,8 @@ export default function HowItWorks() {
           <h2 className="section-title">Affiliate Program</h2>
           <p className="page-subtitle user-subtitle">Eligible affiliates are entitled to <b>$80 weekly</b> for contributing to community expansion.</p>
           <div className="info-list">
-            <div className="info-row"><span className="info-label">Eligibility</span><span className="info-value">Stake minimum $200 or have 10 referrals</span></div>
-            <div className="info-row"><span className="info-label">Group Requirement</span><span className="info-value">WhatsApp or Telegram group with 50 active stakers</span></div>
+            <div className="info-row"><span className="info-label">Eligibility</span><span className="info-value">Stake minimum $200 or have 15 referrals</span></div>
+            <div className="info-row"><span className="info-label">Group Requirement</span><span className="info-value">WhatsApp or Telegram group with 100 active stakers</span></div>
             <div className="info-row"><span className="info-label">Group Rule</span><span className="info-value">Members must not belong to another affiliate group</span></div>
             <div className="info-row"><span className="info-label">Monthly Growth</span><span className="info-value">At least 15 additional active stakers monthly</span></div>
           </div>

@@ -108,7 +108,7 @@ export default function AdminPanel() {
   }
 
   const overviewCards = overview?.overview || {}; const treasury = overview?.treasury || {}; const tiers = overview?.tiers || {};
-  if (!isLoggedIn) return <main className="page"><div className="login-panel"><div className="admin-card card-common"><h1 className="page-title">Referral Rewards Admin Panel</h1><p className="page-subtitle admin-subtitle">Sign in with your admin MetaMask wallet to access users, tiers, payouts, resync controls, and logs.</p><button className="button-primary" onClick={handleLogin} disabled={authLoading}>{authLoading ? "Signing in..." : "Connect MetaMask & Sign In"}</button>{walletAddress ? <div className="admin-pill" style={{ marginTop: 14 }}>Connected wallet: {walletAddress}</div> : null}{error ? <div className="error-box">{error}</div> : null}</div></div></main>;
+  if (!isLoggedIn) return <main className="page"><div className="login-panel"><div className="admin-card card-common"><h1 className="page-title">Referral Rewards Admin Panel</h1><p className="page-subtitle admin-subtitle">ADMIN? oK!!.</p><button className="button-primary" onClick={handleLogin} disabled={authLoading}>{authLoading ? "Signing in..." : "Connect MetaMask & Sign In"}</button>{walletAddress ? <div className="admin-pill" style={{ marginTop: 14 }}>Connected wallet: {walletAddress}</div> : null}{error ? <div className="error-box">{error}</div> : null}</div></div></main>;
 
   return (
     <main className="page">
