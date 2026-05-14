@@ -59,7 +59,7 @@ export default function HowItWorks() {
           <div className="overview-icon">1</div>
           <h2 className="section-title">What is StakersPro?</h2>
           <p className="page-subtitle user-subtitle">
-            StakersPro is an Indian decentralized staking platform that allows users to stake their funds for a minimum of
+            StakersPro is an Indian decentralized staking platform in partnership with Thirdweb that allows users to stake their funds for a minimum of
             <b> 120 days</b> with a total of <b>200% interest</b>, shared as <b>10% every 6 days</b>.
           </p>
         </div>
