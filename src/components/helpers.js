@@ -16,9 +16,9 @@ export function getStatusTone(status) {
 }
 export function getTierProgress(referrals) {
   const count = Number(referrals || 0);
-  if (count >= 20) return { currentTierName: "Chief controller", currentReward: 11, nextTierName: null, nextTarget: 20, progressPercent: 100, remaining: 0 };
-  if (count >= 12) return { currentTierName: "Controller", currentReward: 7, nextTierName: "Chief controller", nextTarget: 20, progressPercent: Math.min((count / 20) * 100, 100), remaining: 20 - count };
-  if (count >= 5) return { currentTierName: "Manager", currentReward: 3, nextTierName: "Controller", nextTarget: 12, progressPercent: Math.min((count / 12) * 100, 100), remaining: 12 - count };
+  if (count >= 18) return { currentTierName: "Chief controller", currentReward: 30, nextTierName: null, nextTarget: 18, progressPercent: 100, remaining: 0 };
+  if (count >= 10) return { currentTierName: "Controller", currentReward: 16, nextTierName: "Chief controller", nextTarget: 18, progressPercent: Math.min((count / 18) * 100, 100), remaining: 18 - count };
+  if (count >= 5) return { currentTierName: "Manager", currentReward: 10, nextTierName: "Controller", nextTarget: 10, progressPercent: Math.min((count / 10) * 100, 100), remaining: 10 - count };
   return { currentTierName: "No tier yet", currentReward: 0, nextTierName: "Manager", nextTarget: 5, progressPercent: Math.min((count / 5) * 100, 100), remaining: 5 - count };
 }
 export function formatNextPayout(nextPayoutAt, eligible) {

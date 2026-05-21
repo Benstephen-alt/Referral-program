@@ -26,9 +26,9 @@ const stakeRows = [15, 35, 100, 300, 500, 800, 1000, 5000, 10000].map((amount) =
 });
 
 const referralRows = [
-  { tier: "Manager", requirement: "5 Referrals", reward: "$3", cycle: "Every 10 Days" },
-  { tier: "Controller", requirement: "12 Referrals", reward: "$7", cycle: "Every 10 Days" },
-  { tier: "Chief Controller", requirement: "20 Referrals", reward: "$11", cycle: "Every 10 Days" },
+  { tier: "Manager", requirement: "5 Referrals", reward: "$10", cycle: "Every 10 Days" },
+  { tier: "Controller", requirement: "10 Referrals", reward: "$16", cycle: "Every 10 Days" },
+  { tier: "Chief Controller", requirement: "20 Referrals", reward: "$30", cycle: "Every 10 Days" },
 ];
 
 function usd(value) {
